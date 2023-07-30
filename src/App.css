@@ -158,3 +158,63 @@ p {
   margin-left: 10px;
 
 }
+
+.bin {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.smallbin {
+  width: 20%;
+  background-color: #f8f7f7;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 25px;
+
+}
+
+.cirkle {
+  padding: 10px;
+  background-color: #bfbebe;
+  border-radius: 50%;
+}
+
+.categorie {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  color: #000;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.categorie>p {
+  padding-top: 9px;
+  margin-left: 5px;
+}
+
+.blue {
+  color: #fff;
+  background-color: #12A5BC;
+}
+
+.red {
+  color: crimson;
+}
+
+.green {
+  color: limegreen;
+}
+
+.bottom {
+  border-top: 1px solid #000;
+  padding-top: 10px;
+  font-size: 12px;
+}
