@@ -56,7 +56,8 @@ a {
   padding-bottom: 60px;
 }
 
-.selected {
+.selected,
+.blackBtn {
   background-color: #000;
   color: #fff;
   border-radius: 30px;
@@ -88,11 +89,16 @@ a {
   margin: 20px;
 }
 
-.princie_position {
+.princie_position,
+h1 {
   color: #000;
   font-weight: bold;
   font-size: 20px;
 
+}
+
+.greet {
+  margin-left: 10px;
 }
 
 .search-cont {
@@ -111,5 +117,44 @@ a {
   width: 600px;
   line-height: 25px;
   border-radius: 15px;
+
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+p {
+  margin: 0;
+}
+
+.monthDrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-left: 50px;
+  padding-top: 15px;
+
+}
+
+.month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #f8f7f7;
+  padding: 15px;
+  border-radius: 30px;
+  border: 1px solid rgb(149, 149, 149);
+}
+
+.blackBtn {
+  height: 55px;
+  padding-left: 15px;
+  margin-left: 10px;
 
 }
