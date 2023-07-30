@@ -2,6 +2,7 @@ import SmallInfo from "./SmallInfo";
 import { Greeting } from "./greeting";
 import { Search } from "./serach";
 import './App.css';
+import Bottom from "./Bottom";
 
 export function Main() {
     return (
@@ -9,6 +10,7 @@ export function Main() {
             <Search />
             <Greeting />
             <SmallInfo />
+            <Bottom />
         </div>
     )
 }
