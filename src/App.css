@@ -8,6 +8,27 @@ a {
   color: grey;
 }
 
+.face {
+  width: 35px;
+  padding-right: 5px;
+
+}
+
+.faceBin {
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid rgb(175, 170, 170);
+  margin-left: 52px;
+  padding-right: 15px;
+
+}
+
+.bell {
+  font-size: 25px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
 .App-header {
   background-color: #fff;
   min-height: 100vh;
@@ -49,6 +70,10 @@ a {
 
 .Container {
   width: 84%;
+  display: flex;
+  flex-wrap: wrap;
+  color: grey;
+  padding: 15px;
 }
 
 .navElement {
@@ -63,11 +88,28 @@ a {
   margin: 20px;
 }
 
-
-
 .princie_position {
   color: #000;
   font-weight: bold;
   font-size: 20px;
+
+}
+
+.search-cont {
+  padding-left: 15px;
+  display: flex;
+}
+
+.srch {
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.search {
+  border: none;
+  background-color: #f8f7f7;
+  width: 600px;
+  line-height: 25px;
+  border-radius: 15px;
 
 }
